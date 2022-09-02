@@ -1,4 +1,3 @@
-
 include Math
 
 def expression_11(phi, t, a, x)
@@ -16,4 +15,4 @@ a = gets.chomp.to_f
 print "x="
 x = gets.chomp.to_f
 
-puts "result=" << expression_11(1, sqrt(PI), PI / 2, 2).to_s
+puts "result=" << expression_11(phi, t, a, x).to_s
