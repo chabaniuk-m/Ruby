@@ -44,15 +44,15 @@ def gaussian_method(matrix, b)
     end
   end
 
-  c = Vector.zero(n)
+  x = Vector.zero(n)
   (n - 1).downto(0) do |i|
-    c[i] = b[i]
+    x[i] = b[i]
     (i + 1).upto(n - 1) do |j|
-      c[i] -= c[j] * matrix[i, j]
+      x[i] -= x[j] * matrix[i, j]
     end
   end
 
-  c
+  x
 end
 
 puts "x = (#{gaussian_method(A, b).to_a.join(", ")})"

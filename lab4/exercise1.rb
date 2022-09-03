@@ -83,6 +83,10 @@ puts "Task 9"
   puts ai
 end
 
+x = Matrix.column_vector(X)
+puts "Task 9 (alt)"
+puts A * x
+
 puts "Task 10"
 8.times do |j|
   aj = 0
@@ -91,3 +95,8 @@ puts "Task 10"
   end
   print aj, " "
 end
+puts
+
+y = Matrix.row_vector Y
+puts "Task 10 (alt)"
+puts y * B
