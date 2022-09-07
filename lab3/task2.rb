@@ -10,7 +10,6 @@ expr3 = lambda { |x|
   return 1 / (1 + x / (1 + x.fdiv(1 + x)))
 }
 
-y = 0
 x = 7
 
 # using if operator

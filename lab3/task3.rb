@@ -1,7 +1,7 @@
 # 2)
 sum = 0
 9.times do |i|
-  sum += 1.fdiv 3 ** i
+  sum += 1.fdiv(3 ** i)
 end
 
 puts "2) #{sum}"

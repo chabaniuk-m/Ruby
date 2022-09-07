@@ -8,11 +8,10 @@ z = -20
 # number 1
 
 # task a)
-puts "1)\na) ", !(A || B) && (A && B)   # false
+puts "1)\na) \b", !(A || B) && (A && B)   # false
 
 # task b)
-  #     wrong operator
-# puts "b) ", (z != y) <= (6 >= y) && A || B && C && x >= 1.5
+# puts "b)", (z != y) <= (6 >= y) && A || B && C && x >= 1.5
 
 # task c)
 puts "c) ", (8 - x * 2 <= z) && (x ** 2 <=> y ** 2) || (z >= 15)   # false
